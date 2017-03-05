@@ -27,9 +27,6 @@ class FacebookTest(unittest.TestCase):
         while True:
             self.cmpmsg()
 
-        def tearDown(self):
-            self.driver.close()
-            
     def fbinit(self):
         driver = self.driver
         try:
